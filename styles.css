@@ -1,0 +1,140 @@
+.кнопка-главная {
+    display: inline-block; 
+    padding: 0px 1px; 
+    background-color: #FFCA02; 
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    font-size: 48px; /* Уменьшил размер шрифта */
+    line-height: 40px; /* Добавил выравнивание по высоте */
+    cursor: pointer; 
+    text-decoration: none; 
+    transition: background-color 0.3s;
+    width: 214px;
+    height: 55px; 
+    font-family: "Boldonse", system-ui;
+    text-align: center; 
+    position: absolute;
+    left: 827px; /* X-координата */
+    top: 40px;
+} 
+   
+.кнопка-главная:hover {
+    background-color: #e6b800; /* Темнее желтый */
+    transform: scale(1.02); /* Легкое увеличение */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Тень для эффекта */
+}
+
+.кнопка-главная:active {
+    transform: scale(0.98); /* Эффект нажатия */
+}
+.кнопка-правила {
+    display: inline-block; 
+    padding: 0px 1px; 
+    background: rgba(255, 255, 255, 0);
+    color: white; 
+    border: 1px solid #FFCA02; 
+    border-radius: 20px; 
+    font-size: 48px; /* Уменьшил размер шрифта */
+    line-height: 40px; /* Добавил выравнивание по высоте */
+    cursor: pointer; 
+    text-decoration: none; 
+    transition: background-color 0.3s;
+    width: 191px;
+    height: 57px; 
+    font-family: "Boldonse", system-ui;
+    text-align: center; 
+    position: absolute;
+    left: 1099px; /* X-координата */
+    top: 40px;
+}
+.кнопка-правила:hover {
+    background-color: #e6b800; /* Темнее желтый */
+    transform: scale(1.02); /* Легкое увеличение */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Тень для эффекта */
+}
+.кнопка-правила:active {
+    transform: scale(0.98); /* Эффект нажатия */
+}
+.кнопка-плагины {
+    display: inline-block; 
+    padding: 0px 1px; 
+    background: rgba(255, 255, 255, 0);
+    color: white; 
+    border: 1px solid #FFCA02; 
+    border-radius: 20px; 
+    font-size: 35px; /* Уменьшил размер шрифта */
+    line-height: 45px; /* Добавил выравнивание по высоте */
+    cursor: pointer; 
+    text-decoration: none; 
+    transition: background-color 0.3s;
+    width: 236px;
+    height: 57px; 
+    font-family: "Boldonse", system-ui;
+    text-align: center; 
+    position: absolute;
+    left: 1341px; /* X-координата */
+    top: 40px;
+}
+.кнопка-плагины:hover {
+    background-color: #e6b800; /* Темнее желтый */
+    transform: scale(1.02); /* Легкое увеличение */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Тень для эффекта */
+}
+.кнопка-плагины:active {
+    transform: scale(0.98); /* Эффект нажатия */
+}
+
+  .кнопка-faq {
+    display: inline-block; 
+    padding: 0px 1px; 
+    background: rgba(255, 255, 255, 0);
+    color: white; 
+    border: 1px solid #FFCA02; 
+    border-radius: 20px; 
+    font-size: 30px; /* Уменьшил размер шрифта */
+    line-height: 55px; /* Добавил выравнивание по высоте */
+    cursor: pointer; 
+    text-decoration: none; 
+    transition: background-color 0.3s;
+    width: 214px;
+    height: 55px; 
+    font-family: "Boldonse", system-ui;
+    text-align: center; 
+    position: absolute;
+    left: 1637px; /* X-координата */
+    top: 40px;
+}
+.кнопка-faq:hover {
+    background-color: #e6b800; /* Темнее желтый */
+    transform: scale(1.02); /* Легкое увеличение */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Тень для эффекта */
+}
+.кнопка-faq:active {
+    transform: scale(0.98); /* Эффект нажатия */
+}
+
+.головка {
+    position: relative;
+    transform: translate(78px, 40px);
+    background: none; /* Убираем фон кнопки */
+    border: none; /* Убираем рамку */
+    padding: 0; /* Убираем отступы */
+    cursor: pointer;
+  }
+  header {
+    background: url("images/задник.png") center/cover no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  body, header {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+  }
+  
