@@ -1,0 +1,117 @@
+.рамка {
+    border: 1px colid #ffca00; 
+    border-radius: 50px;
+    width: 722px;
+    height: 380px;
+    background: rgba(217, 217, 217, 0.29);
+    position: absolute;
+    left: 78px;
+    top: 431px;
+}
+.инфа {
+    position: absolute;
+    left: 91px; 
+    top: 265px;
+    font-family: "Boldonse", system-ui;
+    color:aliceblue;
+    font-size: 40px; 
+}
+.инфа {
+    display: flex;
+    flex-direction: column;
+    gap: 10px !important; 
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .инфа-строка {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+  }
+  .сервак{
+    position: absolute;
+    left: 94px; 
+    top: 420px;
+    font-family: "Boldonse", system-ui;
+    color:aliceblue;
+    font-size: 34px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px !important; 
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .сервак {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+  }
+
+  .bee {
+    position: absolute;
+    transform: translate(800px, 100px);
+    /* или left/top */
+  }
+  .высер {
+    width: 879px;
+    height: 134px;
+    background: rgba(255, 255, 255, 0.9); /* Белый с прозрачностью */
+    filter: blur(200px); /* Оптимальное размытие */
+    position: absolute;
+    left: 759px;
+    top: 25px; /* Подстройте под вашу вёрстку */
+    z-index: 0; /* Между фоном и кнопками */
+    border-radius: 20px; /* Мягкие края */
+    z-index: 0 !important; /* Должен быть ПОД кнопками */
+    pointer-events: none; /* Чтобы клики проходили сквозь него */
+  }
+  
+
+.писька {
+  width: 4000px; height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0d0d11 100%);
+  /*это градиент*/
+}
+/*это темный нижний фон*/
+.прямоугольник {
+  width: 110%;
+  min-height: 100vh; 
+  background: #0e0e13;
+  position: relative; 
+  margin-top: 0vh; 
+  position:absolute;
+  left:auto; top:auto;
+}
+/*.прямоугольник {
+  animation: fadeIn 1s ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(0px); }
+  to { opacity: 1; transform: translateY(0); }
+}*/
+.h1 {
+  font-weight: 800;
+  font-size: 64px;
+  background: linear-gradient(90deg, #fff 0%, #939393 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Boldonse", system-ui;
+  margin: 0;
+  padding: 0;
+  
+  /* Современное центрирование */
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+
+
+  
+
+
