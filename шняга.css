@@ -11,10 +11,10 @@
 .инфа {
     position: absolute;
     left: 91px; 
-    top: 265px;
+    top: 280px;
     font-family: "Boldonse", system-ui;
     color:aliceblue;
-    font-size: 40px; 
+    font-size: 50px; 
 }
 .инфа {
     display: flex;
@@ -59,7 +59,7 @@
     background: rgba(255, 255, 255, 0.9); /* Белый с прозрачностью */
     filter: blur(200px); /* Оптимальное размытие */
     position: absolute;
-    left: 759px;
+    left: 800px;
     top: 25px; /* Подстройте под вашу вёрстку */
     z-index: 0; /* Между фоном и кнопками */
     border-radius: 20px; /* Мягкие края */
@@ -93,7 +93,7 @@
 .h1 {
   font-weight: 800;
   font-size: 64px;
-  background: linear-gradient(90deg, #fff 0%, #939393 100%);
+  background: linear-gradient(90deg, #fff 0%, #a3a3a3 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -109,6 +109,44 @@
   width: 100%;
   text-align: center;
 }
+.как {
+  font-weight: 800;
+  font-size: clamp(24px, 5vw, 48px);
+  color: #fff;
+  font-family: "Boldonse", system-ui;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 5%;
+  top: 165%; /* Или другое относительное значение */
+  transform: translateY(-50%); /* Центрирование по вертикали */
+  width: 90%;
+  max-width: 1200px;
+  z-index: 10;
+}
+
+.светяшка {
+  width: 484px;
+  height: 488px;
+  background:  #3d3d3d;
+  filter: blur(150px); /* Оптимальное размытие */
+  position: absolute;
+  left: 70%;
+  top: 145%; /* Подстройте под вашу вёрстку */
+  z-index: 0; /* Между фоном и кнопками */
+  z-index: 0 !important; /* Должен быть ПОД кнопками */
+  pointer-events: none; /* Чтобы клики проходили сквозь него */
+}
+.дискорд {
+  position: absolute;
+  left: 72%;
+  top: 148%;
+  background: none; 
+  border: none; 
+  padding: 0; 
+  cursor: pointer;
+}
+
 
 
 
