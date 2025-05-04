@@ -9,57 +9,71 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <!--бля ну это типа картинка головка смп становится кнопкой нахуй -->
-        <button class="головка" onclick="window.location.href='index.html'">
-            <img src="images/головка .png"  width="692" height="202" alt="Картинка">
-        </button>
-        <!--это короче те кнопки которые там главная не главная-->
-      <!--<a href="index.html" class="кнопка-главная">Главная</a>-->
-      <a href="rules.html" class="кнопка-правила">Правила</a>
-      <a href="plugins.html" class="кнопка-плагины">Наши плагины</a>
-      <a href="FAQ.html" class="кнопка-faq">FAQ</a>
-      <div>
-        <img class="bee" src="images/пчела для сайта 2 1.png" width="1135" height="638" alt="Пчела">
-      </div>
-      <div class="писька"></div>
-    </header> 
-    <div class="высер"></div>
-    <div class="инфа">
-        <p class="инфа-строка">приватный minecraft сервер</p>
-        <p class="инфа-строка">со своим сообществом</p>
-      </div>
-    <div class="рамка"></div>
-    <div class="сервак">
-       <p>Добро пожаловать на Golovka SMP, это <br>
-          прекрасное место у которого есть своё <br>
-          не менее прекрасное камьюнити. Сдесь <br>
-          вы получите полную свободу действий и <br>
-          вашего креатива. Вы можете разделить <br>
-          свой игровой опыт с вашими новыми <br>
-          друзьями которых можно найти сдесь же. <br>
-          А самое главное, что на нашем сервере <br>
-          можно поиграть абсолютно бесплатно!<br>
-        </p> 
-    </div>
-    <div class="прямоугольник"></div>
-    <h1 class="h1">Как поиграть с нами</h1>
-    <div class="как">
-      <p>Всё просто! <br>
-         Вам нужно кликнуть на картинку<br>
-         и перейти на наш дискорд сервер, затем<br>
-         написать одному из представителей роли "98I."<br>
-         А что нужно делать дальше вам объяснят<br>
-         непосредственно на сервере<br>
-      </p>
-    </div>
-    <div class="светяшка"></div>
-    <button class="дискорд">
-      <a href="https://discord.gg/Z9Fyqe3ZQx">
-      <img src="images/дискорд.png"   width="400" height="400" alt="дискордик">
-      </a>
-  </button>
-</body> 
-</html>
+  </head>
+  <body>
+      <header>
+          <div class="logo-container">
+              <button class="logo-btn" onclick="window.location.href='index.html'">
+                  <img src="images/головка .png" alt="Golovka SMP">
+              </button>
+          </div>
+          
+          <div class="nav-container">
+              <a href="rules.html" class="nav-btn">правила</a>
+              <a href="plugins.html" class="nav-btn">плагины</a>
+              <a href="FAQ.html" class="nav-btn">FAQ</a>
+          </div>
+          
+          <img class="bee" src="images/пчела для сайта 2 1.png" alt="Пчела">
+          
+          <div class="content-section">
+              <div class="info-block">
+                  <h2 class="info-title">приватный minecraft сервер</h2>
+                  <p class="info-text">
+                      Добро пожаловать на Golovka SMP - место с уникальным сообществом, где вы получите полную свободу действий. 
+                      Создавайте, исследуйте и находите новых друзей в нашем бесплатном мире!
+                  </p>
+              </div>
+          </div>
+      </header>
+      
+      <main class="content-section">
+          <section class="discord-section">
+              <h2 class="section-title">как присоединиться?</h2>
+              <p class="info-text">
+                  Кликните на Discord-иконку, перейдите на наш сервер и напишите любому модератору. 
+                  Мы поможем вам начать игру в течение 5 минут!
+              </p>
+              
+              <a href="https://discord.gg/Z9Fyqe3ZQx" class="discord-btn">
+                  <img src="images/дискорд.png" alt="Discord">
+              </a>
+          </section>
+          
+          <section class="discord-section">
+              <h2 class="section-title">окунись в атмосферу сервера перед игрой</h2>
+              
+              <div class="gallery">
+                  <div class="gallery-item">
+                      <img src="images/p1.png" alt="Постройки">
+                  </div>
+                  <div class="gallery-item">
+                      <img src="images/p2.png" alt="Ивент">
+                  </div>
+                  <div class="gallery-item">
+                      <img src="images/p3.png" alt="Локация">
+                  </div>
+                  <div class="gallery-item">
+                      <img src="images/p4.png" alt="Комьюнити">
+                  </div>
+                  <div class="gallery-item">
+                    <img src="images/p5.png" alt="йоу">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/p6.png" alt="лес">
+                </div>
+              </div>
+          </section>
+      </main>
+  </body>
+  </html>

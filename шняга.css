@@ -76,7 +76,7 @@
 /*это темный нижний фон*/
 .прямоугольник {
   width: 110%;
-  min-height: 100vh; 
+  min-height: 200vh; 
   background: #0e0e13;
   position: relative; 
   margin-top: 0vh; 
@@ -146,10 +146,293 @@
   padding: 0; 
   cursor: pointer;
 }
+.h2 {
+  font-weight: 800;
+  font-size: 64px;
+  background: linear-gradient(90deg, #fff 0%, #ffd500 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Boldonse", system-ui;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.p1 {
+  position: relative;
+  transform: translate(20%, 600%);
+  transition: transform 0.3s ease; 
+  will-change: transform; 
+}
 
+.p1:hover {
+  transform: translate(20%, 600%) scale(4); 
+  z-index: 10; 
+}
+.p2 {
+  position: relative;
+  transform: translate(30%, 600%);
+  transition: transform 0.3s ease; 
+  will-change: transform; 
+}
+.p2:hover {
+  transform: translate(30%, 600%) scale(1.2); 
+  z-index: 10;
+}
+.p3 {
+  position: relative;
+  transform: translate(40%, 600%);
+  transition: transform 0.3s ease; 
+  will-change: transform; 
+  border-radius: 30px;
+}
+.p3:hover {
+  transform: translate(40%, 600%) scale(1.2); 
+  z-index: 10;
+}
+.p4 {
+  position: relative;
+  transform: translate(50%, 600%);
+  transition: transform 0.3s ease; 
+  will-change: transform; 
+}
+.p4:hover {
+  transform: translate(50%, 600%) scale(1.2); 
+  z-index: 10;
+}
+/* Медиа-запрос для экранов меньше 1600px */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Boldonse', system-ui;
+  background: #0e0e13;
+  color: white;
+  overflow-x: hidden;
+}
 
+/* Шапка */
+header {
+  background: url("images/задник.png") center/cover no-repeat;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Логотип */
+.logo-container {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.logo-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.logo-btn img {
+  max-width: 692px;
+  width: 100%;
+  height: auto;
+}
+
+/* Навигация */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+.nav-btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background: transparent;
+  color: white;
+  border: 3px solid #FFCA02;
+  border-radius: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s;
+  min-width: 150px;
+  text-align: center;
+}
+.nav-btn:hover {
+  background-color: #e6b800; 
+  transform: scale(1.02); 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+.nav-btn:active {
+  transform: scale(0.98); 
+}
+
+/* Пчела */
+.bee {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  width: 600px;
+  height: auto;
+  z-index: 1;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+/* Основной контент */
+.content-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+/* Информационный блок */
+.info-block {
+  background: rgba(217, 217, 217, 0.29);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  padding: 30px;
+  margin: 170px 0;
+  max-width: 1000px;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info-title {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.info-text {
+  font-size: 1.7rem;
+  line-height: 1.6;
+}
+
+/* Секция Discord */
+.discord-section {
+  text-align: center;
+  margin: 80px 0;
+  position: relative;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #FFF, #FFCA02);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.discord-btn {
+  display: inline-block;
+  max-width: 300px;
+  transition: transform 0.3s;
+  margin: 20px 0;
+}
+
+.discord-btn:hover {
+  transform: scale(1.1);
+}
+
+.discord-btn img {
+  width: 100%;
+  height: auto;
+}
+
+/* Галерея */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 60px 0;
+}
+
+.gallery-item {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  position: relative;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Адаптивность */
+@media (max-width: 1200px) {
+  .bee {
+      width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-btn {
+      font-size: 18px;
+      padding: 8px 15px;
+      min-width: 120px;
+  }
   
+  .info-title, .section-title {
+      font-size: 2rem;
+  }
+  
+  .info-text {
+      font-size: 1rem;
+  }
+  
+  .bee {
+      width: 150px;
+      top: 15%;
+  }
+}
 
-
+@media (max-width: 480px) {
+  .logo-btn img {
+      max-width: 300px;
+  }
+  
+  .nav-container {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .bee {
+      display: none;
+  }
+  
+  .info-block {
+      padding: 20px;
+  }
+  
+  .gallery {
+      grid-template-columns: 1fr;
+  }
+}
