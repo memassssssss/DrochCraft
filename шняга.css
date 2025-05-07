@@ -232,12 +232,6 @@ body {
   color: white;
 }
 
-/* Шапка */
-header {
-  background: url("images/задник.png") center/cover no-repeat;
-  min-height: 100vh;
-  position: relative;
-}
 
 /* Логотип */
 .logo-container {
@@ -267,9 +261,13 @@ header {
   padding: 20px;
   position: relative;
   z-index: 10;
+  margin: 0 auto 5px !important; /* Убираем верхний отступ, оставляем снизу 5px */
+  padding: 20px 20px;
+  margin-bottom: 0; /* Убираем отступ снизу */
+  order: 2;
 }
 
-.nav-btn {
+.nav-btn {  
   display: inline-block;
   padding: 10px 25px;
   background: transparent;
