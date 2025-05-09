@@ -1,0 +1,210 @@
+header {
+    background: none !important;
+    padding: 20px 0 0 !important; /* ВЕРХ 20px | НИЗ 0 */
+    overflow-y: auto;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Minecraft', Arial, sans-serif;
+}
+
+body {
+    background: url('images/свинья.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(14, 14, 19, 0.85);
+    z-index: -1;
+}
+.logo-container {
+    text-align: center;
+    padding-top: 20px;
+    order: 1; /* Первый элемент */
+    margin-bottom: 5px;
+  }
+  
+  .logo-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .logo-btn img {
+    max-width: 692px;
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+
+/* Навигация */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto 5px !important; /* Убираем верхний отступ, оставляем снизу 5px */
+    padding: 20px 20px;
+    margin-bottom: 0; /* Убираем отступ снизу */
+    order: 2;
+  }
+  
+  .nav-btn {
+    display: inline-block;
+    padding: 10px 0px;
+    background: transparent;
+    color: white;
+    border: 3px solid #FFCA02;
+    border-radius: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.3s;
+    min-width: 150px;
+    text-align: center;
+  }
+  .nav-btn:hover {
+    background-color: #e6b800; 
+    transform: scale(1.02); 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  }
+  .nav-btn:active {
+    transform: scale(0.98); 
+  }
+  .faq-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    background: rgba(35, 34, 25, 0.9);
+    border-radius: 15px;
+    border: 2px solid #e6b800;
+    box-shadow: 0 0 25px rgba(208, 255, 0, 0.522);
+}
+
+.faq-title {
+    text-align: center;
+    color: #FFCA02;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+/* Аккордеон FAQ */
+.faq-accordion {
+    margin-bottom: 30px;
+}
+
+.faq-category {
+    margin-bottom: 15px;
+}
+
+.faq-header {
+    background: linear-gradient(to right, #e6b800, #74691c);
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+    border: 1px solid #938e30;
+}
+
+.faq-header:hover {
+    background: linear-gradient(to right, #856a1a, #4e391b);
+}
+
+.faq-icon {
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+.faq-toggle {
+    margin-left: auto;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.faq-category.active .faq-toggle {
+    transform: rotate(45deg);
+}
+
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    background: rgba(60, 59, 40, 0.6);
+    border-radius: 0 0 8px 8px;
+}
+
+.faq-content-inner {
+    padding: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    color: #fff98a;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.faq-answer {
+    color: #ddd;
+    line-height: 1.6;
+    padding-left: 15px;
+    border-left: 2px solid #869330;
+}
+.ссылка {
+    color: white;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .faq-container {
+        padding: 15px;
+        margin: 15px;
+    }
+    
+    .faq-title {
+        font-size: 1.8rem;
+    }
+    
+    .faq-header {
+        font-size: 1.1rem;
+        padding: 12px 15px;
+    }
+}
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rules-container {
+        margin: 0 15px;
+    }
+    
+    .rule-header {
+        font-size: 1.1rem;
+    }
+  }

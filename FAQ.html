@@ -1,1 +1,94 @@
-ПАШОЛ НАХОЙ
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Golovka SMP</title>
+    <link rel="stylesheet" href="FAQ.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <button class="logo-btn" onclick="window.location.href='index.html'">
+                <img src="images/головка .png" alt="Golovka SMP">
+            </button>
+        </div>
+        
+        <div class="nav-container">
+            <a href="rules.html" class="nav-btn">Правила</a>
+            <a href="plugins.html" class="nav-btn">Плагины</a>
+            <a href="FAQ.html" class="nav-btn">FAQ</a>
+        </div>
+        <main class="faq-container">
+            <h1 class="faq-title">❓ Часто задаваемые вопросы</h1>
+            
+            <div class="faq-accordion">
+                <!-- Основные вопросы -->
+                <div class="faq-category">
+                    <div class="faq-header">
+                        <span class="faq-icon">🔹</span>
+                        Основные вопросы
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-item">
+                            <div class="faq-question">Как подключиться к серверу?</div>
+                            <div class="faq-answer">
+                                IP: <strong>play.golovkasmp.ru</strong><br>
+                                Версия: <strong>1.21.4</strong>
+                            </div>
+                        </div>
+                        
+                        <div class="faq-item">
+                            <div class="faq-question">Как зарегистрироваться?</div>
+                            <div class="faq-answer">
+                                При первом входе используйте:<br>
+                                <code>/register ваш_пароль подтверждение_пароля</code>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Технические вопросы -->
+                <div class="faq-category">
+                    <div class="faq-header">
+                        <span class="faq-icon">🔧</span>
+                        Технические вопросы
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-item">
+                            <div class="faq-question">Что делать при лагах?</div>
+                            <div class="faq-answer">
+                                1. Проверьте интернет-соединение<br>
+                                2. Обратитесь к администрации<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Игровые вопросы -->
+                <div class="faq-category">
+                    <div class="faq-header">
+                        <span class="faq-icon">🎮</span>
+                        Игровые вопросы
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-content">
+                        <div class="faq-item">
+                            <div class="faq-question">Как сообщить о проблеме?</div>
+                            <div class="faq-answer">
+                                Создать тикет на нашем <a class="ссылка" href="https://discord.gg/Z9Fyqe3ZQx">дискорд сервере</a> и описать свою проблему<br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+    </body>
+        <script src="FAQ.js"></script>
+        </html>

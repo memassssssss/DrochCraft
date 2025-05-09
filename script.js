@@ -28,3 +28,29 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
   
+  // Установите дату следующего вайпа
+  const wipeDate = new Date("2025-06-01T00:00:00");
+    
+  function updateCountdown() {
+      const now = new Date();
+      const diff = wipeDate - now;
+      
+      if (diff <= 0) {
+          document.getElementById('wipeTimer').textContent = "ВАЙП НАЧАЛСЯ!";
+          return;
+      }
+      
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+      
+      document.getElementById('wipeTimer').textContent = 
+          `${days.toString().padStart(2, '0')}:${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+  }
+  
+  // Обновляем каждую секунду
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
+
+  

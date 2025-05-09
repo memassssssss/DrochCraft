@@ -218,6 +218,41 @@ body {
   transform: translate(50%, 600%) scale(1.2); 
   z-index: 10;
 }
+.wipe-countdown {
+  background: linear-gradient(135deg, #2d1065 0%, #1a0b2e 100%);
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 2px solid #7002ff;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  font-family: 'Minecraft', 'Oswald', sans-serif;
+}
+
+.wipe-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #FFF, #ea02ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wipe-timer {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(255, 202, 2, 0.7);
+}
+
+.wipe-date {
+  font-size: 1rem;
+  opacity: 0.9;
+  color: #dddddd;
+}
 /* Медиа-запрос для экранов меньше 1600px */
 
 * {
