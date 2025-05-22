@@ -266,6 +266,10 @@ body:before {
         font-size: 1.5rem;
         
     }
+     .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media (max-width: 1200px) {
     .triple-width {

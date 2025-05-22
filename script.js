@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
   // Установите дату следующего вайпа
-  const wipeDate = new Date("2025-06-01T00:00:00");
+  const wipeDate = new Date("2025-06-14T00:00:00");
     
   function updateCountdown() {
       const now = new Date();
@@ -49,7 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
           `${days.toString().padStart(2, '0')}:${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
   }
   
-  // Обновляем каждую секунду
   updateCountdown();
   setInterval(updateCountdown, 1000);
 
