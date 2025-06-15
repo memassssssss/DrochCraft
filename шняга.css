@@ -462,7 +462,7 @@ body {
 .section-title {
   font-size: 3rem;
   margin-bottom: 40px;
-  background: linear-gradient(90deg, #FFF, #0235ff);
+  background: linear-gradient(90deg, #FFF, #a83eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -481,7 +481,7 @@ body {
   margin: 20px 0;
   position: relative;
   z-index: 1;
-  filter: drop-shadow(0 0 20px rgba(34, 52, 255, 0.6));
+  filter: drop-shadow(0 0 20px rgba(255, 123, 0, 0.9));
 }
 
 .discord-btn:hover {
@@ -490,7 +490,7 @@ body {
 }
 @keyframes discord-glow {
   100% {
-    filter: drop-shadow(0 0 20px rgba(0, 21, 255, 0.9));
+    filter: drop-shadow(0 0 20px rgba(255, 240, 34, 0.6));
   }
 }
 
