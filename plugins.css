@@ -91,7 +91,7 @@ body:before {
     padding: 10px 0px;
     background: transparent;
     color: white;
-    border: 3px solid #FFCA02;
+    border: 3px solid #1100ff;
     border-radius: 20px;
     font-size: 24px;
     text-decoration: none;
@@ -100,7 +100,7 @@ body:before {
     text-align: center;
   }
   .nav-btn:hover {
-    background-color: #e6b800; 
+    background-color: #6b6b6b; 
     transform: scale(1.02); 
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   }
@@ -108,17 +108,6 @@ body:before {
     transform: scale(0.98); 
   }
   
-/* Основной контент */
-.rules-container {
-  max-width: 800px;
-  margin: 10px auto 30px;
-  padding: 20px;
-  background: rgba(30, 30, 40, 0.8);
-  border-radius: 15px;
-  border: 2px solid #FFCA02;
-  box-shadow: 0 0 20px rgba(255, 202, 0, 0.3);
-  order: 3;
-}
 
 /* Контейнер плагинов */
 .plugins-container {
@@ -132,11 +121,11 @@ body:before {
 }
 
 .section-title {
-    color: #FFCA02;
+    color: #d7d4ff;
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 30px;
-    text-shadow: 0 0 10px rgba(255, 202, 2, 0.3);
+    text-shadow: 0 0 10px rgb(150, 157, 255);
     border-bottom: 2px solid #4a4a6a;
     padding-bottom: 15px;
 }
@@ -157,7 +146,7 @@ body:before {
 }
 
 .category-title {
-    color: #FFCA02;
+    color: #d7d4ff;
     font-size: 1.8rem;
     margin-top: 0;
     margin-bottom: 20px;
@@ -172,7 +161,7 @@ body:before {
     border-radius: 8px;
     padding: 15px;
     margin-bottom: 15px;
-    border-left: 4px solid #FFCA02;
+    border-left: 4px solid #1100ff;
     transition: all 0.3s;
     position: relative;
     overflow: hidden;
@@ -180,7 +169,7 @@ body:before {
 
 .plugin-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(255, 202, 2, 0.2);
+    box-shadow: 0 10px 20px rgba(155, 157, 255, 0.2);
     background: rgba(60, 60, 80, 0.8);
 }
 
@@ -191,7 +180,7 @@ body:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(255, 202, 2, 0.1) 0%, rgba(255, 202, 2, 0) 100%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(2, 6, 255, 0) 100%);
     z-index: 0;
 }
 

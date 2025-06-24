@@ -245,7 +245,7 @@ body {
   margin: 10px 0;
   letter-spacing: 2px;
   color: #ffffff;
-  text-shadow: 0 0 5px rgba(255, 202, 2, 0.7);
+  text-shadow: 0 0 5px rgba(40, 2, 255, 0.7);
 }
 
 .wipe-date {
@@ -307,7 +307,7 @@ body {
   padding: 10px 25px;
   background: transparent;
   color: white;
-  border: 3px solid #FFCA02;
+  border: 3px solid #1100ff;
   border-radius: 20px;
   font-size: 24px;
   text-decoration: none;
@@ -316,7 +316,7 @@ body {
   text-align: center;
 }
 .nav-btn:hover {
-  background-color: #e6b800; 
+  background-color: #6b6b6b; 
   transform: scale(1.02); 
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
 }
@@ -481,7 +481,7 @@ body {
   margin: 20px 0;
   position: relative;
   z-index: 1;
-  filter: drop-shadow(0 0 20px rgba(255, 123, 0, 0.9));
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.9));
 }
 
 .discord-btn:hover {
@@ -490,7 +490,7 @@ body {
 }
 @keyframes discord-glow {
   100% {
-    filter: drop-shadow(0 0 20px rgba(255, 240, 34, 0.6));
+    filter: drop-shadow(0 0 20px rgba(0, 38, 255, 0.6));
   }
 }
 

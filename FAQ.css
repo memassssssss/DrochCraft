@@ -70,7 +70,7 @@ body:before {
     padding: 10px 0px;
     background: transparent;
     color: white;
-    border: 3px solid #FFCA02;
+    border: 3px solid #1100ff;
     border-radius: 20px;
     font-size: 24px;
     text-decoration: none;
@@ -79,7 +79,7 @@ body:before {
     text-align: center;
   }
   .nav-btn:hover {
-    background-color: #e6b800; 
+    background-color: #6b6b6b; 
     transform: scale(1.02); 
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   }
@@ -90,15 +90,15 @@ body:before {
     max-width: 800px;
     margin: 20px auto;
     padding: 25px;
-    background: rgba(35, 34, 25, 0.9);
+    background: rgba(25, 28, 35, 0.9);
     border-radius: 15px;
-    border: 2px solid #e6b800;
-    box-shadow: 0 0 25px rgba(208, 255, 0, 0.522);
+    border: 2px solid #1100ff;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.459);
 }
 
 .faq-title {
     text-align: center;
-    color: #FFCA02;
+    color: #d7d4ff;
     margin-bottom: 30px;
     font-size: 2.2rem;
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
@@ -114,7 +114,7 @@ body:before {
 }
 
 .faq-header {
-    background: linear-gradient(to right, #e6b800, #74691c);
+    background: linear-gradient(to right, #1100ff36, #ffffffa6);
     padding: 15px 20px;
     cursor: pointer;
     border-radius: 8px;
@@ -123,11 +123,11 @@ body:before {
     display: flex;
     align-items: center;
     transition: all 0.3s;
-    border: 1px solid #938e30;
+    border: 1px solid #1100ff;
 }
 
 .faq-header:hover {
-    background: linear-gradient(to right, #856a1a, #4e391b);
+    background: linear-gradient(to right, #1100ff83, #ffffffc5);
 }
 
 .faq-icon {
@@ -149,7 +149,7 @@ body:before {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
-    background: rgba(60, 59, 40, 0.6);
+    background: rgba(137, 135, 255, 0.096);
     border-radius: 0 0 8px 8px;
 }
 
@@ -162,7 +162,7 @@ body:before {
 }
 
 .faq-question {
-    color: #fff98a;
+    color: #d7d4ff;
     font-weight: bold;
     margin-bottom: 10px;
     font-size: 1.1rem;
@@ -172,7 +172,7 @@ body:before {
     color: #ddd;
     line-height: 1.6;
     padding-left: 15px;
-    border-left: 2px solid #869330;
+    border-left: 2px solid #3a3093;
 }
 .ссылка {
     color: white;
