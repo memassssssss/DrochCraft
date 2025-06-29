@@ -325,7 +325,7 @@ body {
 }
 
 /* Пчела */
-.bee {
+/*.bee {
   position: absolute;
   right: 5%;
   top: 10%;
@@ -333,7 +333,7 @@ body {
   height: auto;
   z-index: 1;
   animation: float 3s ease-in-out infinite;
-}
+}*/
 
 @keyframes float {
   0%, 100% { transform: translateY(0); }
