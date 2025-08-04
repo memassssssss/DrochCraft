@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   
   // Установите дату следующего вайпа
-  const wipeDate = new Date("2025-09-01T00:00:00");
+  const wipeDate = new Date("2025-08-04T00:00:00");
     
   function updateCountdown() {
       const now = new Date();
